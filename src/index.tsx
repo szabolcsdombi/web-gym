@@ -5,7 +5,7 @@ import { Home } from './home';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/web-gym/',
     children: [
       {
         path: '',
