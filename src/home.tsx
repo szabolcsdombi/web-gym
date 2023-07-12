@@ -32,10 +32,10 @@ export const Home = () => {
       }
 
       await pyodide.loadPackage([
-        '/zengl-1.13.0-cp311-cp311-emscripten_3_1_32_wasm32.whl',
-        '/numpy-1.24.2-cp311-cp311-emscripten_3_1_32_wasm32.whl',
-        '/gym_utils-0.1.0-cp311-cp311-emscripten_3_1_32_wasm32.whl',
-        '/gymnasium-0.28.1-py3-none-any.whl',
+        'zengl-1.13.0-cp311-cp311-emscripten_3_1_32_wasm32.whl',
+        'numpy-1.24.2-cp311-cp311-emscripten_3_1_32_wasm32.whl',
+        'gym_utils-0.1.0-cp311-cp311-emscripten_3_1_32_wasm32.whl',
+        'gymnasium-0.28.1-py3-none-any.whl',
       ]);
 
       if (controller.signal.aborted) {
